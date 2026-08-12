@@ -21,6 +21,10 @@
 * [Arduino IDE](https://www.arduino.cc/en/software/)
 * [ESPAsyncWebServer](https://esp32async.github.io/ESPAsyncWebServer/)
 
+## WEB
+
+Статичная html страница. Указываем IP адрес сервера - адрес esp32 устройства в локальной сети. Страница подключяется к SSE. Полученные данные используеются для управления в игре.
+
 ## Ссылки
 
 * Исходник Pong игры - [Basic Pong HTML and JavaScript Game] https://gist.github.com/straker/81b59eecf70da93af396f963596dfdc5 
