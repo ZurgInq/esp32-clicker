@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clicker Games</title>
+    </head>
+    <body>
+        <p>Игры для управления с esp32 по SSE</p>
+        <form>
+            <label for="clickerAddr">ESP32 IP: <input id="clickerAddr" type="text"></label>
+            <button id="saveSettings">Save</button>
+        </form>
+        <ul>
+            <li><a href="pong.html">Basic Pong HTML Game</a></li>
+        </ul>
+        <script>
+            const clickerAddrKey = 'clickerAddr';
+            const clickerAddrEl = document.getElementById('clickerAddr');
+
+            let clickerIP = localStorage.getItem(clickerAddrKey);
+            clickerAddrEl.value = clickerIP;
+
+            document.getElementById('saveSettings').addEventListener('click', (event) => {
+                event.preventDefault();
+
+                localStorage.setItem(clickerAddrKey, clickerAddrEl.value);
+            });
+        </script>
+    </body>
+</html>
