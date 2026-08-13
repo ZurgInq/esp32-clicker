@@ -2,8 +2,6 @@
 
 Управляем простыми html играми через кнопки тумблеры (on/off). Включение или выключение тумблера интерпретируется как зажатие стрелок клавиатуры. Это означает, что отсутствует состояние "кнопка не нажата".
 
-https://zurginq.github.io/esp32-clicker/
-
 ## Часть ESP32 DEVKIT
 
 ### Железная часть
@@ -32,3 +30,4 @@ https://zurginq.github.io/esp32-clicker/
 ## Ссылки
 
 * Исходник Pong игры - [Basic Pong HTML and JavaScript Game](https://gist.github.com/straker/81b59eecf70da93af396f963596dfdc5)
+* ESP32 Web Server using Server-Sent Events https://randomnerdtutorials.com/esp32-web-server-sent-events-sse/
